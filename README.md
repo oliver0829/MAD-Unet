@@ -2,6 +2,21 @@
 
 Object segmentation of near surface magnetic field dat based on deep convolutional neural networks
 
+## Program Language
+The primary programming languages used in this project are:
+
+- **Python 3.8+**: All of the core functionalities, including data loading, model training, and evaluation, are written in Python.
+
+## Software Required
+
+To run this project, you will need the following software:
+
+- **Python 3.8+**: Ensure that Python is installed and accessible in your environment.
+- **PyTorch 1.10+**: PyTorch is used as the deep learning framework. Installation will depend on your hardware configuration (CPU or GPU). See the [Installation](#installation) section for more details.
+- **Anaconda/Miniconda (optional)**: Recommended for managing Python environments.
+- **Other Python libraries**: Listed in `environments.yml`
+- **CUDA (optional, for GPU acceleration)**: If you are using GPU, you will need the correct CUDA version installed for PyTorch.
+
 
 ## Download
 
