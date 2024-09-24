@@ -25,7 +25,7 @@ Once you've downloaded and extracted the code, follow these steps to set up the 
     cd Code
     ```
 
-3. **Set up the environment**:
+3. **Set up the environment (this does not include PyTorch)**:
 
     ```bash
     conda env create -f environment.yml
