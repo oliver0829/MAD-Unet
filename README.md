@@ -31,7 +31,21 @@ Once you've downloaded and extracted the code, follow these steps to set up the 
     conda env create -f environment.yml
     conda activate mad-unet
     ```
+4. **Installing PyTorch**:
 
+   PyTorch installation requires selecting the right configuration based on your hardware (CUDA or CPU). Follow these steps:
+
+   - If you are using a **GPU with CUDA support**, visit [PyTorch's official installation page](https://pytorch.org/get-started/locally/) and generate the correct installation command for your system. For example, to install with CUDA 11.7:
+
+     ```bash
+     pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
+     ```
+
+   - If you are using **CPU only** (no GPU support), install PyTorch with:
+
+     ```bash
+     pip install torch torchvision torchaudio
+     ```
 
 ## Usage
 
