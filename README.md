@@ -22,7 +22,6 @@ Once you've downloaded and extracted the code, follow these steps to set up the 
     After downloading `Code.zip`, unzip it:
 
     ```bash
-    unzip Code.zip
     cd Code
     ```
 
